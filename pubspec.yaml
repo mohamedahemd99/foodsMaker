@@ -1,0 +1,52 @@
+name: meal_applicaion
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  conditional_builder:
+  bloc:
+  flutter_bloc:
+  provider:
+  shared_preferences:
+  flutter_colorpicker:
+  http:
+
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+   - family: Raleway
+     fonts:
+       - asset: assets/fonts/Raleway-Black.ttf
+         weight: 900
+       - asset: assets/fonts/Raleway-Bold.ttf
+         weight: 700
+       - asset: assets/fonts/Raleway-Regular.ttf
+
+   - family: RobotoCondensed
+     fonts:
+       - asset: assets/fonts/RobotoCondensed-Bold.ttf
+         weight: 700
+       - asset: assets/fonts/RobotoCondensed-Italic.ttf
+         style: italic
+       - asset: assets/fonts/RobotoCondensed-Light.ttf
+         weight: 300
+       - asset: assets/fonts/RobotoCondensed-Regular.ttf
+

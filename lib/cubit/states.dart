@@ -1,0 +1,5 @@
+abstract class TestPostLoginStates{}
+class InitialTestPostLoginStates extends TestPostLoginStates{}
+class LoadingTestPostLoginStates extends TestPostLoginStates{}
+class SuccessTestPostLoginStates extends TestPostLoginStates{}
+class ErrorTestPostLoginStates extends TestPostLoginStates{}
